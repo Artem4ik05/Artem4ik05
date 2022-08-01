@@ -11,6 +11,7 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_anilist: yes
+          plugin_anilist_user: akinichi
           plugin_anilist_medias: manga
-          plugin_anilist_sections: favorites, reading
-          plugin_anilist_limit: 1
+          plugin_anilist_sections: favorites
+          plugin_anilist_limit: 3

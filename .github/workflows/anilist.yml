@@ -7,11 +7,10 @@ jobs:
       - name: ANIME
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.anilist.manga.svg
+          filename: waifu.svg
           token: NOT_NEEDED
           base: ""
           plugin_anilist: yes
           plugin_anilist_user: akinichi
-          plugin_anilist_medias: manga
-          plugin_anilist_sections: favorites
-          plugin_anilist_limit: 3
+          plugin_anilist_sections: characters
+          plugin_anilist_limit_characters: 22

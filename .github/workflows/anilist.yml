@@ -1,7 +1,16 @@
-name: Favorites anime and currently watching
-uses: lowlighter/metrics@latest
-with:
-  filename: anilist.svg
-  token: NOT_NEEDED
-  base: ""
-  plugin_anilist: yes
+name: Metrics
+on: [push]
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ANIME
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.anilist.manga.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_medias: manga
+          plugin_anilist_sections: favorites, reading
+          plugin_anilist_limit: 1

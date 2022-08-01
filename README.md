@@ -1,2 +1,3 @@
 ![img](github-metrics.svg)
-![ing](metrics.plugin.anilist.svg)
+![img](metrics.plugin.anilist.svg)
+![img](metrics.plugin.anilist.manga.svg)
